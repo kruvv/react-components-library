@@ -15,7 +15,6 @@ module.exports = {
     },
     "@storybook/addon-controls",
     "@storybook/addon-storysource",
-    '@storybook/preset-scss',
     "@storybook/preset-create-react-app"
   ]
 }

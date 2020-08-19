@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+src/stories/Button.js
+src/stories/Button.stories.js
+src/stories/Header.js
+src/stories/Header.stories.js
+src/stories/Introduction.stories.mdx
+src/stories/Page.js
+src/stories/Page.stories.js
+src/stories/assets/
+src/stories/button.css
+src/stories/header.css
+src/stories/page.css

@@ -3,11 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bem-cn": "^3.0.1",
+    "html-react-parser": "^0.13.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
@@ -43,7 +50,6 @@
     "@storybook/addon-storysource": "^6.0.12",
     "@storybook/node-logger": "^6.0.12",
     "@storybook/preset-create-react-app": "^3.1.4",
-    "@storybook/preset-scss": "^1.0.2",
     "@storybook/react": "^6.0.12",
     "babel-loader": "^8.1.0",
     "css-loader": "^4.2.1",
