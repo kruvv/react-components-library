@@ -11,18 +11,18 @@ const CSFilterBtn = ({item, handlerAction}) => {
     return (
 
         <button
-            className={sp("filter-btn", {mod}).toString()}
+            className={sp("filter-btn", {mod})}
             type="button"
             onClick={(e) =>{handlerAction(item.name)}}
             value={item.name}
         >
-        <div className={sp("filter-btn-icon").toString()} value={item.name}>
+        <div className={sp("filter-btn-icon")} value={item.name}>
             { item.checked
-                ? <div className={i({checked: true}).toString()}></div>
-                : <div className={i({unchecked: true}).toString()}></div>
+                ? <div className={i({checked: true})}></div>
+                : <div className={i({unchecked: true})}></div>
             }
         </div>
-        <div className={sp("filter-btn-text").toString()} value={item.name}>{item.name}</div>
+        <div className={sp("filter-btn-text")} value={item.name}>{item.name}</div>
 
         </button>
 
